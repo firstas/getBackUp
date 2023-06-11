@@ -1,0 +1,16 @@
+Wymagane do: środa, 10 maja 2023, 00:00
+Bardzo proszę o przygotowanie rozwiązań na podstawie zajęć i dokumentacji webgl.
+
+1a. Proszę narysować kwadrat w webgl (w funkcji gl.drawArrays() należy użyć opcji gl.TRIANGLES.
+1b. Proszę narysować sześciokąt w webgl (w funkcji gl.drawArrays() należy użyć opcji gl.TRIANGLE_FAN.
+Na przyszłość dobrze jest jednak mieć na uwadze, że według autora tego artykułu należy raczej unikać używania innych opcji niż gl.TRIANGLES.
+2. Proszę dodać przycisk, który będzie zmieniał kolor narysowanej figury po kliknięciu na niego (tą figurą może też być podstawowy trójkąt).
+Zadania proszę przesłać jako linki do commitów na githubie.
+
+Źródła:
+informacje o funkcjach GLSL(np. `gl.createProgram()` ):
+https://www.khronos.org/opengl/wiki/Main_Page
+https://webglfundamentals.org/
+
+Film z którego korzystałem do przygotowania poprzednich zajęć (autor bardzo przystępnie wyjaśnia):
+https://www.youtube.com/watch?v=kB0ZVUrI4Aw
