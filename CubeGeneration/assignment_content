@@ -1,0 +1,10 @@
+Wymagane do: sobota, 27 maja 2023, 00:00
+Bardzo proszę o przygotowanie funkcji, która będzie generować sześcian.
+
+Jako argumenty funkcji należy podać długość boku sześcianu i kolory jego wierzchołków. Zakładamy, że sześcian będzie budowany z 24 wierzchołków, tak jak w przykładzie z zajęć. Na pegazie znajduje się kod, w którym ręcznie generowany jest sześcian, więc może służyć jako podstawa do napisania funkcji (pliki z Rotating cube).
+Lokalizacje mają być obliczane na podstawie długości boku sześcianu. Zakładamy, że centrum sześcianu będzie w punkcie (0,0,0) w przestrzeni trójwymiarowej.
+Output z tej funkcji ma być użyty jako input do bufora (linia z kodem:
+gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(boxVertices), gl.STATIC_DRAW);)
+To znaczy, że output będzie wyglądał podobnie do zmiennej boxVertices z naszego kodu z zajęć.
+
+Jako wynik proszę wysłać link do commita na githubie.
